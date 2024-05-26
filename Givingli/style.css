@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/Assets/Desktop\ -\ 2.svg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px 0px 300px;
+    padding-top: 16px;
+    
+}
+.logo{
+    font-family: Plus jakarta sans;
+    font-weight: 600;
+display: flex;
+font-size: 24px;
+gap: 2px;
+justify-content: center;
+align-items: center;
+color: #2c2c2c;
+}
+.logo img{
+height: 26px;
+width: 25.53px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.menu li{
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+font-size: 16px;
+font-weight: 500;
+padding: 12px 16px 12px 16px;
+color: #2c2c2c;
+}
+.menu button{
+color: #fff;
+background-color: #2c2c2c;
+padding: 12px 18px 12px 18px;
+border-radius: 32px;
+font-family: poppins;
+font-weight: 500;
+margin-left:12px;
+}
+.menu button:hover{
+background-color: #454545;
+}
+.main{
+    margin-top: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.brand img{
+height: 49px;
+width: 49px;
+color: #2c2c2c;
+}
+.copyrighting{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 96px;
+    line-height: 85%;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #2c2c2c;
+}
+.main button{
+    color: #fff;
+    background-color: #2c2c2c;
+    padding: 12px 18px 12px 18px;
+    border-radius: 32px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+}
+.main button:hover{
+    background-color: #454545;
+}
+/* Responsive */
+
+@media (max-width: 765px) {
+    body {
+       /* color: aqua; */
+       /* margin: 60px; */
+       /* background: ;
+       background-size: ; */
+    }
+    nav{
+        margin: 0px 60px 0px 60px;
+        padding-top: 16px;
+    }
+    nav button{
+        padding: 4px;
+    }
+    .main .copyrighting{
+font-style: italic;
+font-size: 64px;
+    }
+    .main .brand{
+        font-size: 12px;
+    }
+    .brand img{
+        height: 32px;
+        width: 32px;
+    }
+}
